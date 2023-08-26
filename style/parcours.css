@@ -1,0 +1,116 @@
+:root {
+	--brighter: #dec9e9ff;
+	--bright: #dac3e8ff;
+	--wisteria: #d2b7e5ff;
+	--main: #c19ee0ff;
+	--dark: #b185db;
+	--amethyst: #a06cd5ff;
+	--darker: #9163cbff;
+	--royal-purple: #815ac0ff;
+	--royal-purple-2: #7251b5ff;
+	--royal-purple-3: #6247aaff;
+}
+
+#Parcours {
+	font-weight: bold;
+	border-bottom: 2px solid var(--bright);
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	font-family: 'Manrope', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+.input {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px;
+}
+
+.input .swipebar {
+	width: 500px;
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid var(--darker);
+	border-radius: 20px;
+}
+
+.checked {
+	background: var(--darker);
+}
+
+.checked:first-child {
+	border-radius: 17px 0 0 17px;
+}
+
+.checked:last-child {
+	border-radius: 0 17px 17px 0;
+}
+
+.input .swipebar input {
+	position: relative;
+	width: 120px;
+	height: 40px;
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.container-parcours {
+	color: var(--darker);
+	background: var(--main);
+	padding: 15px 9%;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.parcours .cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 200px 200px;
+	gap: 15px;
+}
+
+.parcours .cards div {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	background-color: var(--bright);
+	text-align: center;
+	padding: 30px 20px;
+	transition: transform 0.2s;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.box4 {
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border-radius: 0 20px 20px 0;
+	overflow: scroll;
+}
+
+.box1 {
+	border-radius: 20px 0 0 0;
+}
+
+.box3 {
+	border-radius: 0 0 0 20px;
+}
+
+.box4 p {
+	text-align: left;
+}

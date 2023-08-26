@@ -1,0 +1,6 @@
+Rajouter des projets
+Rajouter les liens github des projets
+Rendre le site responsive
+Fix les ombres du header
+Rendre les textes plus lisible
+Changer la page contact

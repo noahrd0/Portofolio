@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/projets.css">
+	<script src="script/projets.js" defer></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+<header>
+	<div class="container">
+		<div class="logo">@Noahrd0.</div>
+		<div class="menu">
+			<a href="index.html" id="Accueil">Accueil</a>
+			<a href="parcours.html" id="Parcous" id="Projets">Parcours</a>
+			<a href="competences.html" id="Competences">Compétences</a>
+			<a href="#" id="Projets">Projets</a>
+			<a href="contact.html" id="Contact">Contact</a>
+		</div>
+	</div>
+</header>
+<main>
+	<div class="container-projets">
+		<div class="filter">
+			<button data-name="all" id="all">Tous</button>
+			<button data-name="html" id="html">HTML</button>
+			<button data-name="css" id="css">CSS</button>
+			<button data-name="js" id="js">JavaScript</button>
+			<button data-name="c" id="c">C</button>
+			<button data-name="c++" id="c++">C++</button>
+			<button data-name="git" id="git">Git</button>
+		</div>
+		<div class="filterable-cards">
+			<div class="card" data-tags="c">
+				<img src="images/projets/cub3d.png" alt="Projet cub3d de 42">
+				<div class="card_body">
+					<h3>Cub3d</h3>
+					<p>Développement d'un jeu vidéo en C en exploitant la technique du raycasting avec l'appui de la bibliothèque graphique minilibx.</p>
+				</div>
+			</div>
+			<div class="card" data-tags="html css js">
+				<img src="images/projets/portofolio.png" alt="Projet portofolio">
+				<div class="card_body">
+					<h3>Portofolio</h3>
+					<p>Conception et création d'un portofolio en ligne à l'aide des langages HTML, CSS et JavaScript.</p>
+				</div>
+			</div>
+			<div class="card" data-tags="html css js">
+				<img src="images/projets/calculatrice.png" alt="Projet calculatrice JavaScript">
+				<div class="card_body">
+					<h3>Calculatrice</h3>
+					<p>Projet de calculatrice réalisé pour approfondir ma compréhension des manipulations du DOM en JavaScript.</p>
+				</div>
+			</div>
+			<div class="card" data-tags="c">
+				<img src="images/projets/minishell.png" alt="Projet minishell" id="minishell">
+				<div class="card_body">
+					<h3>Minishell</h3>
+					<p>Conception et réalisation d'un shell en langage C, offrant une interface utilisateur en ligne de commande. Gestion des commandes et des processus, implémentation des fonctionnalités de base d'un shell.</p>
+				</div>
+			</div>
+			<div class="card" data-tags="js">
+				<img src="images/projets/csgofloat.png" alt="Projet minishell" id="minishell">
+				<div class="card_body">
+					<h3>CSGOFloatTracker</h3>
+					<p>Création et développement d'un exécutable, CSGOFloatTracker, capable de collecter des données à partir du steam market. L'application envoie des alertes SMS en cas d'erreur prix.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+</html>
