@@ -5,21 +5,26 @@
 	<title>Home</title>
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="style/projets.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="script/projets.js" defer></script>
+	<script src="script/responsive_menu.js" defer></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
 </head>
-<header>
-	<div class="container">
-		<div class="logo">@Noahrd0.</div>
-		<div class="menu">
-			<a href="index.html" id="Accueil">Accueil</a>
-			<a href="parcours.html" id="Parcous" id="Projets">Parcours</a>
-			<a href="competences.html" id="Competences">Compétences</a>
-			<a href="#" id="Projets">Projets</a>
-			<a href="contact.html" id="Contact">Contact</a>
+<header>		
+	<nav class="navbar">
+		<a href="#" class="logo">@Noahrd0.</a>
+		<div class="nav-links">
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="parcours.html">Parcours</a></li>
+				<li><a href="competences.html">Competences</a></li>
+				<li><a href="projets.html" class="active">Projets</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
 		</div>
-	</div>
+		<img src="images/icons/menu.png" alt="Menu" class="menu">
+	</nav>
 </header>
 <main>
 	<div class="container-projets">
@@ -55,18 +60,24 @@
 				</div>
 			</div>
 			<div class="card" data-tags="c">
-				<img src="images/projets/minishell.png" alt="Projet minishell" id="minishell">
+				<img src="images/projets/minishell.png" alt="Projet minishell">
 				<div class="card_body">
 					<h3>Minishell</h3>
 					<p>Conception et réalisation d'un shell en langage C, offrant une interface utilisateur en ligne de commande. Gestion des commandes et des processus, implémentation des fonctionnalités de base d'un shell.</p>
 				</div>
 			</div>
 			<div class="card" data-tags="js">
-				<img src="images/projets/csgofloat.png" alt="Projet minishell" id="minishell">
+				<img src="images/projets/csgofloat.png" alt="Projet minishell">
 				<div class="card_body">
 					<h3>CSGOFloatTracker</h3>
 					<p>Création et développement d'un exécutable, CSGOFloatTracker, capable de collecter des données à partir du steam market. L'application envoie des alertes SMS en cas d'erreur prix.</p>
-
+				</div>
+			</div>
+			<div class="card" data-tags="html css js">
+				<img src="images/projets/todolist.png" alt="Projet to-do list">
+				<div class="card_body">
+					<h3>To-do list</h3>
+					<p>Création d'une liste de tâches interactive et responsive, avec des animations fluides et la fonctionnalité de glisser-déposer.</p>
 				</div>
 			</div>
 		</div>
