@@ -31,7 +31,7 @@ const section_linkedin = `
 	<img src="images/3dicons/linkedin.png" alt="Icone LinkedIn">
 	<div>
 		<h2>Visitez mon profil LinkedIn</h2>
-		<p>Cliquez-ici</p>
+		<a href="https://www.linkedin.com/in/noah-radal-27a51428a/" target="_blank">Cliquez ici</a>
 	</div>
 </section>
 `;
@@ -41,17 +41,7 @@ const section_github = `
 	<img src="images/3dicons/github.png" alt="Icone Github">
 	<div>
 		<h2>Visitez mon profil Github</h2>
-		<p>Cliquez-ici</p>
-	</div>
-</section>
-`;
-
-const section_twitter = `
-<section class="others">
-	<img src="images/3dicons/twitter.png" alt="Icone Twitter">
-	<div>
-		<h2>Venez me suivre sur Twitter</h2>
-		<p>Cliquez-ici</p>
+		<a href="https://github.com/noahrd0" target="_blank">Cliquez ici</a>
 	</div>
 </section>
 `;
@@ -61,7 +51,6 @@ let message_btn = document.getElementById("message-btn");
 let email_btn = document.getElementById("email-btn");
 let linkedin_btn = document.getElementById("linkedin-btn");
 let github_btn = document.getElementById("github-btn");
-let twitter_btn = document.getElementById("twitter-btn");
 
 message_btn.addEventListener("click", () => {
 	box.innerHTML = section_message;
@@ -93,12 +82,4 @@ github_btn.addEventListener("click", () => {
 		btn.classList.remove("active");
 	});
 	github_btn.classList.add("active");
-});
-
-twitter_btn.addEventListener("click", () => {
-	box.innerHTML = section_twitter;
-	section_btn.forEach(btn => {
-		btn.classList.remove("active");
-	});
-	twitter_btn.classList.add("active");
 });

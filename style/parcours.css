@@ -11,12 +11,6 @@
 	--royal-purple-3: #6247aaff;
 }
 
-#Parcours {
-	font-weight: bold;
-	border-bottom: 2px solid var(--bright);
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
 * {
 	margin: 0;
 	padding: 0;
@@ -62,7 +56,7 @@ h2 {
 
 .input .swipebar input {
 	position: relative;
-	width: 120px;
+	width: 16.66666666666667%;
 	height: 40px;
 	cursor: pointer;
 	-webkit-appearance: none;
@@ -113,4 +107,68 @@ h2 {
 
 .box4 p {
 	text-align: left;
+}
+
+@media screen and (max-width: 1112px) {
+
+	.input {
+		position: relative;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 30px;
+	}
+	
+	.input .swipebar {
+		width: 90%;
+		display: flex;
+		justify-content: space-around;
+		border: 2px solid var(--darker);
+		border-radius: 20px;
+	}
+
+	.parcours .cards {
+		display: grid;
+		grid-template-columns: 32.5% 32.5% 32.5%;
+		/* grid-template-rows: 100px 100px 100px; */
+		gap: 5px;
+	}
+
+	.parcours .cards div {
+		font-size: 16px;
+		line-height: 28px;
+	}
+
+	.parcours .cards img {
+		width: 50px;
+	}
+
+	.box4 {
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 1;
+		grid-column-end: 4;
+		height: fit-content;
+		border-radius: 0 0 20px 20px;
+		overflow: scroll;
+	}
+	
+	.box1 {
+		border-radius: 20px 0 0 0;
+	}
+	
+	.box3 {
+		border-radius: 0 20px 0 0;
+	}
+	
+	.box4 p {
+		text-align: left;
+	}
+
+	.container-parcours {
+		padding-left: 2%;
+		padding-right: 2%;
+		height: fit-content;
+		margin-bottom: 20px;
+	}
 }

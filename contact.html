@@ -44,22 +44,18 @@
 			<img src="images/3dicons/github.png" alt="Icone github">
 			<p>Github</p>
 		</div>
-		<div id="twitter-btn">
-			<img src="images/3dicons/twitter.png" alt="Icone twitter">
-			<p>Twitter</p>
-		</div>
 	</div>
 	<div class="form-container" id="box">
 		<section class="formulaire">
 			<img src="images/3dicons/plane.png" alt="Icone papper plane">
 			<div>
-				<form action="">
+				<form class="contact-form" action="contactform.php" method="post">
 					<div class="both">
 						<input type="text" name="name" id="name" placeholder="Nom" required>
 						<input type="email" name="email" id="email" placeholder="Email" required>
 					</div>
 					<textarea name="message" id="message" cols="50" rows="10" placeholder="Message" required></textarea>
-					<input type="submit" value="Envoyer">
+					<input type="submit" name="submit" value="Envoyer">
 				</form>
 			</div>
 		</section>
