@@ -43,6 +43,7 @@ h2 {
 }
 
 .checked {
+	border-radius: 0;
 	background: var(--darker);
 }
 
