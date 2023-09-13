@@ -36,8 +36,8 @@ const formation2022 = "Ma deuxième année à l'école 42 a été une période d
 // 2023
 const localisation2023 = "Localisation : Montpellier"
 const ecole2023 = "École : IPSSI";
-const diplome2023 = "Diplôme : ...";
-const formation2023 = "En cette nouvelle étape de mon parcours, l'année 2023 a marqué un tournant décisif. Ayant acquis une solide base de compétences et d'expériences dans le domaine de la programmation, j'ai pris la décision de revenir à Montpellier pour poursuivre mon cheminement professionnel. Mon objectif était clair : approfondir mes connaissances et me spécialiser dans un domaine qui me passionne tout particulièrement, la cybersécurité.";
+const diplome2023 = "Diplôme : Bachelor FullStack & DevOps (en cours)";
+const formation2023 = "En cette nouvelle étape de mon parcours, l'année 2023 a marqué un tournant décisif. Ayant acquis une solide base de compétences et d'expériences dans le domaine de la programmation, j'ai pris la décision de revenir à Montpellier pour poursuivre mon cheminement professionnel. Mon objectif était clair : approfondir mes connaissances et me spécialiser dans un domaine qui me passionne tout particulièrement, le développement web.";
 // 2024
 const localisation2024 = "Localisation : ...";
 const ecole2024 = "École : ...";
