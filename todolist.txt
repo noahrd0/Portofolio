@@ -1,1 +1,2 @@
 1 - Rajouter tous les projets, rendre les repos github public
+2 - Mettre les images en webp
